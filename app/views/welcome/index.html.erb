@@ -1,30 +1,30 @@
-<div class="ui large top fixed hidden menu">
-      <div class="ui container">
-        <a class="active item">Home</a><a class="item">Work</a><a class="item">Contacts</a> 
-       
+ 
+
+<div class="ui large top fixed hidden menu ">
+      <div class="ui container ">
+        <a class="active item" href="#">Home</a> <h1> </h1><a class="item" href="#work">Work</a><a class="item"  href="#contact">Contact</a> 
+     
       </div>
     </div>
-    
-    <!--Page Contents-->
+     
     <div class="pusher">
       <div class="ui inverted vertical masthead center aligned segment">
         <div class="ui container">
           <div class="ui large secondary inverted pointing menu">
-            <a class="toc item"><i class="sidebar icon"></i></a><a class="active item">Home</a><a class="item">Work</a><a class="item">Contacts</a> 
+            <a class="toc item"><i class="sidebar icon"></i></a><a class="active item" href="#">Home</a><a class="item" href="#work">Work</a><a class="item" href="#contact">Contact</a> 
              
           </div>
         </div>
         <div class="ui text container">
           <h1 class="ui inverted header">
-            Marian Ilco
+            Hello, I'm Marian Ilco I'm a full-stack web developer.
           </h1>
-          <h2>
-            NEW YORK, NY
-          </h2>
-          
+           
         </div>
       </div>
-      <div class="ui vertical stripe segment">
+   
+      <div id = "work" >
+      <div class="ui vertical stripe segment" >
         <div class="ui middle aligned stackable grid container">
           <div class="row">
             <div class="eight wide column">
@@ -42,23 +42,32 @@
               </p>
             </div>
             <div class="six wide right floated column">
-              <img class="ui large bordered rounded image" src="../../static/images/templates/semantic-ui/wireframe/white-image.png" />
+              <%= image_tag("1.png", :alt => "rss feed") %>
+               
             </div>
           </div>
           <div class="row">
             <div class="center aligned column">
               <a href="https://calm-falls-83557.herokuapp.com">
-  <p class="ui huge button">Check Out</p>
+          <p class="ui huge button">Check Out</p>
   </a>
               
             </div>
           </div>
         </div>
       </div>
+  
  
-
-<div class="ui inverted vertical footer segment form-page">
-  <div class="ui container">
-    Contacts
+<div class='ui inverted segment center aligned grid form-page'>
+  <div class='ui inverted secondary menu'>
+  <%= link_to href: 'http://www.example.com/' do %>
+    <%= image_tag("1.svg", :alt => "rss feed", class: "icon") %>
+    <% end %>
+    <%= link_to href: 'http://www.example.com/' do %>
+      <%= image_tag("2.svg", :alt => "rss feed", class: "icon") %>
+      <%= link_to href: 'http://www.example.com/' do %>
+       <%= image_tag("3.svg", :alt => "rss feed", class: "icon") %>
+       <%= link_to href: 'http://www.example.com/' do %>
+        <%= image_tag("4.svg", :alt => "rss feed", class: "icon") %>
   </div>
 </div>
