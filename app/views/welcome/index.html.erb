@@ -1,61 +1,63 @@
- 
-
 <div class="ui large top fixed hidden menu ">
-      <div class="ui container ">
-        <a class="active item" href="#">Home</a> <h1> </h1><a class="item" href="#work">Work</a><a class="item"  href="#contact">Contact</a> 
-     
+  <div class="ui container ">
+    <a class="active item" href="#">Home</a>
+    <h1> </h1><a class="item" href="#work">Work</a><a class="item" href="#contact">Contact</a>
+
+  </div>
+</div>
+
+<div class="pusher">
+  <div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui container">
+      <div class="ui large secondary inverted pointing menu">
+        <a class="toc item"><i class="sidebar icon"></i></a><a class="active item" href="#">Home</a><a class="item"
+          href="#work">Work</a><a class="item" href="#contact">Contact</a>
+
       </div>
     </div>
-     
-    <div class="pusher">
-      <div class="ui inverted vertical masthead center aligned segment">
-        <div class="ui container">
-          <div class="ui large secondary inverted pointing menu">
-            <a class="toc item"><i class="sidebar icon"></i></a><a class="active item" href="#">Home</a><a class="item" href="#work">Work</a><a class="item" href="#contact">Contact</a> 
-             
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        Hello, I'm Marian Ilco, I'm a full-stack web developer.
+      </h1>
+
+    </div>
+  </div>
+
+  <div id="work">
+    <div class="ui vertical stripe segment">
+      <div class="ui middle aligned stackable grid container">
+        <div class="row">
+          <div class="eight wide column">
+            <h3 class="ui header">
+              Website that allow you to download audio and video from youtube
+            </h3>
+            <p>
+              Search for videos click mp3 button to download audio click and mp4 button to download video.
+            </p>
+            <h3 class="ui header">
+              Environment
+            </h3>
+            <p>
+              Ruby on Rails SASS framework Bootstrap for cards and grid Nokogiri gem for scraping data from Youtube
+              PostgreSQL/Active Record for relational DB design Devise for simple user authentication BCrypt password
+              encryption
+            </p>
+          </div>
+          <div class="six wide right floated column">
+            <%= image_tag("1.gif", :alt => "rss feed") %>
+
           </div>
         </div>
-        <div class="ui text container">
-          <h1 class="ui inverted header">
-            Hello, I'm Marian Ilco, I'm a full-stack web developer.
-          </h1>
-           
+        <div class="row">
+          <div class="center aligned column">
+            <a href="https://github.com/ilcomarian/youtube-downloader">
+              <p class="ui huge button">Check Out</p>
+            </a>
+
+          </div>
         </div>
       </div>
-   
-      <div id = "work" >
-      <div class="ui vertical stripe segment" >
-        <div class="ui middle aligned stackable grid container">
-          <div class="row">
-            <div class="eight wide column">
-              <h3 class="ui header">
-                Website that allow you to download audio and video from youtube
-              </h3>
-              <p>
-               Search for videos click mp3 button to download audio click and  mp4 button to download video.
-              </p>
-              <h3 class="ui header">
-               Environment
-              </h3>
-              <p>
-                Ruby on Rails SASS framework Bootstrap for cards and grid Nokogiri gem for scraping data from Youtube PostgreSQL/Active Record for relational DB design Devise for simple user authentication BCrypt password encryption 
-              </p>
-            </div>
-            <div class="six wide right floated column">
-              <%= image_tag("1.gif", :alt => "rss feed") %>
-               
-            </div>
-          </div>
-          <div class="row">
-            <div class="center aligned column">
-              <a href="https://github.com/ilcomarian/youtube-downloader">
-          <p class="ui huge button">Check Out</p>
-  </a>
-              
-            </div>
-          </div>
-        </div>
-        <div class="ui vertical stripe segment" >
+      <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
           <div class="row">
             <div class="eight wide column">
@@ -63,74 +65,79 @@
                 Administrative Dashboard for a fictitious Soccer School
               </h3>
               <p>
-               Create Students, Instructors, Cohorts and Courses. Add/Remove Instructors and Students to/from Courses. Add/Remove Cohorts to/from Courses.
+                Create Students, Instructors, Cohorts and Courses. Add/Remove Instructors and Students to/from Courses.
+                Add/Remove Cohorts to/from Courses.
               </p>
               <h3 class="ui header">
-               Environment
+                Environment
               </h3>
               <p>
-                Ruby on Rails SASS framework Bootstrap for cards and grid PostgreSQL/Active Record for relational DB design Devise for simple user authentication BCrypt password encryption deployed to Heroku
+                Ruby on Rails SASS framework Bootstrap for cards and grid PostgreSQL/Active Record for relational DB
+                design Devise for simple user authentication BCrypt password encryption deployed to Heroku
               </p>
             </div>
             <div class="six wide right floated column">
               <%= image_tag("1.png", :alt => "rss feed") %>
-               
+
             </div>
           </div>
           <div class="row">
             <div class="center aligned column">
               <a href="https://calm-falls-83557.herokuapp.com">
-          <p class="ui huge button">Check Out</p>
-  </a>
-              
+                <p class="ui huge button">Check Out</p>
+              </a>
+
             </div>
           </div>
         </div>
-        <div class="ui vertical stripe segment" >
-        <div class="ui middle aligned stackable grid container">
-          <div class="row">
-            <div class="eight wide column">
-              <h3 class="ui header">
-                JumpStar
-              </h3>
-              <p>
-                Platform to unite employers(small, non-profit, medium business) and developers 
-              </p>
-              <h3 class="ui header">
-               Environment
-              </h3>
-              <p>
-                Used Ruby on Rails,devise for authentication, postgresql database for storing users data,Semantic ui and SASS to create the user interface.
-              </p>
+        <div class="ui vertical stripe segment">
+          <div class="ui middle aligned stackable grid container">
+            <div class="row">
+              <div class="eight wide column">
+                <h3 class="ui header">
+                  JumpStar
+                </h3>
+                <p>
+                  Platform to unite employers(small, non-profit, medium business) and developers
+                </p>
+                <h3 class="ui header">
+                  Environment
+                </h3>
+                <p>
+                  Used Ruby on Rails,devise for authentication, postgresql database for storing users data,Semantic ui
+                  and SASS to create the user interface.
+                </p>
+              </div>
+              <div class="six wide right floated column">
+                <%= image_tag("grup.png", :alt => "rss feed") %>
+
+              </div>
             </div>
-            <div class="six wide right floated column">
-              <%= image_tag("grup.png", :alt => "rss feed") %>
-               
-            </div>
-          </div>
-          <div class="row">
-            <div class="center aligned column">
-              <a href="https://sleepy-mesa-43692.herokuapp.com/">
-          <p class="ui huge button">Check Out</p>
-  </a>
-              
+            <div class="row">
+              <div class="center aligned column">
+                <a href="https://sleepy-mesa-43692.herokuapp.com/">
+                  <p class="ui huge button">Check Out</p>
+                </a>
+
+              </div>
             </div>
           </div>
         </div>
-      </div>
-  
- <div id = "contact" >
-<div class='ui inverted segment center aligned grid form-page'>
-  <div class='ui inverted secondary menu'>
-      
-    <%= link_to  'https://www.linkedin.com/in/ilcomarian/' do %>
-      <%= image_tag("1.svg", :alt => "rss feed", class: "icon") %>
-       <% end %>
-      <%= link_to  'https://github.com/ilcomarian' do %>
-       <%= image_tag("2.svg", :alt => "rss feed", class: "icon") %>
-        <% end %>
-        
-         
-  </div>
-</div>
-</div>
+        </div>
+         </div>
+
+        <div id="contact">
+          <div class='ui inverted segment center aligned grid form-page'>
+            <div class='ui inverted secondary menu'>
+
+              <%= link_to  'https://www.linkedin.com/in/ilcomarian/' do %>
+              <%= image_tag("1.svg", :alt => "rss feed", class: "icon") %>
+              <% end %>
+              <%= link_to  'https://github.com/ilcomarian' do %>
+              <%= image_tag("2.svg", :alt => "rss feed", class: "icon") %>
+              <% end %>
+
+
+            </div>
+          </div>
+        </div>
